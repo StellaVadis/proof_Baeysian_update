@@ -60,7 +60,6 @@ $$
 &~ P(X^{(1)},X^{(2)},\cdots,X^{(n)}|\theta) \\
 = &~ P(X^{(1)}|\theta)P(X^{(2)}|X^{(1)},\theta)\cdots P(X^{(n)}|X^{(1)},X^{(2)},\cdots,X^{(n-1)},\theta)\\
 = &~ P(X^{(1)}|\theta)P(X^{(2)}|\theta)\cdots P(X^{(n)}|\theta)
-
 \end{align}
 $$
 
