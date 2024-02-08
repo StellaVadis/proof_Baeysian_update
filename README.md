@@ -21,7 +21,12 @@ Loop $i$ from $2$ to $n$:
 $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$
 <div style="background-color: #fc2e; padding: 10px; border-radius: 5px; font-family: 'Times New Roman', Times, serif;">
 
-$\textbf{Now, we want to prove that for each $i$ from $1$ to $n$, the $w_i(\theta,X^{(1)},\cdots,X^{(i)}) = P(\theta|X^{(1)},\cdots,X^{(i)})$. (The algorithm does give the posterior distribution of Bayesian inference)}$.
+$$
+
+\textbf{Now, we want to prove that for each $i$ from $1$ to $n$, the $w_i(\theta,X^{(1)},\cdots,X^{(i)}) = P(\theta|X^{(1)},\cdots,X^{(i)})$. (The algorithm does give the posterior distribution of Bayesian inference)}
+
+$$
+
 </div>
 
 Proof: 
