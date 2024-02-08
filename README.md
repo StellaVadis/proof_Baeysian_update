@@ -33,6 +33,7 @@ When $i = 1$: $\omega_1(\theta,X^{(1)}) = \frac{P(X^{(1)}|\theta)P(\theta)}{P(X^
 When $i = 2$: Now we have two samples $X^{(1)}$ and $X^{(2)}$.
 
 Since we compute the $\omega_1(\theta,X^{(1)})$ at first, we have already got:
+
 $$
 \begin{align}
 & ~ \omega_1(\theta,X^{(1)}) \\
@@ -64,6 +65,7 @@ $$
 $$
 
 Continue on $\frac{P(X^{(2)}|\theta)P(X^{(1)}|\theta)P(\theta)}{\int_{\theta}P(X^{(2)}|\theta)P(X^{(1)}|\theta)P(\theta)d\theta}$ we have,
+
 $$
 \begin{align}
 &~ \omega_2(\theta,X^{(1)},X^{(2)}) \\
@@ -99,12 +101,15 @@ $$
 $$
 
 For summary, you show that if 
+
 $$
 \begin{align}
 \omega_{k}(\theta,X^{(1)}, X^{(2)},\cdots,X^{(k)}) = P(\theta|X^{(1)},\cdots,X^{(k)})
 \end{align}
 $$
+
 we can prove that 
+
 $$
 \begin{align}
 \omega_{k+1}(\theta,X^{(1)}, X^{(2)},\cdots,X^{(k+1)}) = P(\theta|X^{(1)},\cdots,X^{(k+1)})
