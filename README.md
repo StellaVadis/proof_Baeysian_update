@@ -14,7 +14,7 @@ Loop $i$ from $2$ to $n$:
 
   $~~~~~~$ Compute the distribution $\omega$ using the following formulas: 
   
-  $~~~~~~ \omega_i(\theta,X^{(1)},\cdots,X^{(i)}) = \frac{P(X^{(1)},\cdots,X^{(i)}|\theta)\omega_{i-1}(\theta,X^{(1)},\cdots,X^{(i-1)})}{P(X^{(1)},\cdots,X^{(i)})}$
+  $~~~~~~ \omega_i(\theta,X^{(1)},\cdots,X^{(i)}) = \frac{P(X^{(1)},\cdots,X^{(i)}|\theta)\omega_{i-1}(\theta,X^{(1)},\cdots,X^{(i-1)})}{\int_{\theta}P(X^{(1)},\cdots,X^{(i)}|\theta)\omega_{i-1}(\theta,X^{(1)},\cdots,X^{(i-1)}) d\theta}$
 
 </div>
 
