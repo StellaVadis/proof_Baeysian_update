@@ -92,7 +92,7 @@ $$
 \begin{align}
 &~ \omega_{k+1}(\theta,X^{(1)}, X^{(2)},\cdots,X^{(k+1)}) \\
 =&~ \frac{P(X^{(k+1)}|\theta)P(\theta|X^{(1)},\cdots,X^{(k)})}{\int_{\theta}P(X^{(k+1)}|\theta)P(\theta|X^{(1)},\cdots,X^{(k)})d\theta} \\
-= &~ \frac{P(X^{(k+1)}|\theta)\frac{P(X^{(k)}|X^{(1)},\cdots,\theta)P(\theta)}{P(X^{(1)},\cdots,X^{(k)})}}{\int_{\theta}P(X^{(k+1)}|\theta)\frac{P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{P(X^{(1)},\cdots,X^{(k)})}d\theta} \\
+= &~ \frac{P(X^{(k+1)}|\theta)\frac{P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{P(X^{(1)},\cdots,X^{(k)})}}{\int_{\theta}P(X^{(k+1)}|\theta)\frac{P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{P(X^{(1)},\cdots,X^{(k)})}d\theta} \\
 = &~ \frac{P(X^{(k+1)}|\theta)\frac{P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{P(X^{(1)},\cdots,X^{(k)})}}{\frac{1}{P(X^{(1)},\cdots,X^{(k)})}\int_{\theta}P(X^{(k+1)}|\theta)P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)d\theta} \\
 = &~ \frac{P(X^{(k+1)}|\theta)P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{\int_{\theta}P(X^{(k+1)}|\theta)P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)d\theta} \\
 = &~ \frac{P(X^{(k+1)}|\theta, X^{(1)},\cdots,X^{(k)})P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)}{\int_{\theta}P(X^{(k+1)}|\theta,X^{(1)},\cdots,X^{(k)})P(X^{(1)},\cdots,X^{(k)}|\theta)P(\theta)d\theta} \\
